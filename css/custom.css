@@ -113,3 +113,9 @@ ul.profile-stats li {
     width: 50%;
     float: left;
 }
+.form-group {
+    margin-bottom: 15px;
+}
+.updateButton {
+    margin-bottom: 40px;
+}
