@@ -44,3 +44,33 @@ html {
   overflow: hidden;
   height: 100%;
 }
+.yboxColor{
+    background-color : #EDAA1E;
+}
+.loginButton:hover #menu_child{
+    display: block;
+}
+.userMenu{
+    background-color: #f6f5f2;
+    position: absolute;
+    left: 104px;    
+}
+.userName {
+    color: #333;
+    cursor: auto;    
+    font-size: 2em;
+    font-weight: bold;    
+    line-height: 35.56px;
+    text-decoration: uppercase;
+}
+
+.userAbout{    
+    color: #555;
+    display: block;    
+    font-size: 0.7em;
+    height: 120px;
+    line-height: 1.5em;
+    margin: 0 0  16px 0;    
+    max-width: 750px;
+    min-height: 5px;    
+}

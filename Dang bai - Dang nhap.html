@@ -167,8 +167,55 @@
 			
 			<li class="loginButton">
 				<a href="#" onclick="$('#myModal').modal('show');return false;" > 
-					<span class="glyphicon glyphicon-user"></span> 
+					<span class="glyphicon glyphicon-user"></span>
 				</a>
+                <!--only show this menu after user login-->
+                <div id="menu_child" class="userMenu ">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <figure class="col-xs-3">                        
+                                    <img src="images/arc.png" width="200"/>
+                                </figure>
+                                <div class="userInfo col-xs-6">
+                                    <p class="userName"> Yohana Desta </p>
+                                    <p class="userAbout">
+                                    Yohana Desta is an entertainment reporter for Mashable. She is a Northern Virginia native and an American University grad. She enjoys carefully curating her Instagram account and can often be found reading books, going to concerts, watching movies and learning way too much about pop culture.
+                                    </p>
+                                </div>
+                                <div class="userTool col-xs-3">
+                                    <ul>
+                                        <li>
+                                            <span class="glyphicon glyphicon-plus"></span>
+                                            Đăng bài mới
+                                        </li>                                        
+                                        <li>
+                                            <span class="glyphicon glyphicon-pencil"></span>
+                                            Chỉnh sửa thông tin
+                                        </li>
+                                        <li>                                            
+                                            <span class="glyphicon glyphicon-lock"></span>
+                                            Đổi mật khẩu
+                                        </li>
+                                        <li>
+                                            <span class="glyphicon glyphicon-log-out"></span>
+                                            Đăng xuất
+                                        </li>
+                                        <li>
+                                            <span class="glyphicon glyphicon-envelope"></span>
+                                            Hòm thư
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                    
+                    </div>
+                    
+                </div>
+
 			</li>
 			
             <li class="menu_lastchild">
@@ -429,7 +476,7 @@
 		aria-hidden="true">
 		<div class="modal-dialog modal-lg">
 			<div class="modal-content">
-				<div class="modal-header">
+				<div class="modal-header yboxColor">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
 						&times;</button>
 					<h4 class="modal-title" id="myModalLabel">
