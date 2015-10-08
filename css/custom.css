@@ -3,11 +3,10 @@
 }
 .loginButton{
 	float : right;
-	font-size: 1.5em;
 }
 
-.loginButton a {
-	
+.loginButton a span {
+	font-size: 1.5em;
 	color: #FFF;
 	padding: 8px 8px 0 8px;
 }
@@ -40,10 +39,11 @@ div#OR {
     background: #DFDFDF;
 }
 //fix bug open modal of bootstrap
-html {	
+html .modalOpen{	
   overflow: hidden;
   height: 100%;
 }
+
 .yboxColor{
     background-color : #EDAA1E;
 }
@@ -58,7 +58,7 @@ html {
 .userName {
     color: #333;
     cursor: auto;    
-    font-size: 2em;
+    font-size: 24px;
     font-weight: bold;    
     line-height: 35.56px;
     text-decoration: uppercase;
@@ -67,10 +67,49 @@ html {
 .userAbout{    
     color: #555;
     display: block;    
-    font-size: 0.7em;
+    font-size: 14 px;
     height: 120px;
     line-height: 1.5em;
     margin: 0 0  16px 0;    
     max-width: 750px;
     min-height: 5px;    
+}
+
+ul.profile-stats {
+    border-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+ul.profile-stats {
+    text-transform: uppercase;
+    color: #aaa;
+    font-weight: normal;
+    font-size: 10px;
+    font-size: 1rem;
+    list-style: none;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    margin: 0;       
+    padding: 10px 0;
+}
+
+ul.profile-stats li em {
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    color: #7fc04c;
+    font-size: 56px;    
+    line-height: 1;
+}
+ul.profile-stats li:nth-child(1),  ul.profile-stats li:nth-child(2) {
+    border-bottom: 1px dotted #ccc;
+}
+ul.profile-stats li {
+    padding: 12px 0;
+    margin: 0;
+    width: 50%;
+    float: left;
 }
